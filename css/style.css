@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*-------------RESET------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* -------------HEADER------------- */
+
+header{
+    position: sticky;
+    top: 0;
+}
+header h1{
+    font-size: 70px;
+    text-align: center;
+    }
+
+.up{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.up nav li ul a{
+    text-decoration: none;
+    text-align: center;
+    padding: 50%;
+
+}
+
+.up div img{
+    display: inline-block;
+}
+
+@font-face {
+    font-family: "amsterdam four";
+    src: url(../fonts/amsterdam-four-ttf.ttf);
+}
+
+header h1{
+    font-family: "amsterdam four";
+}
+
+.hero p{
+    font-size: 50px;
+    margin: 10px 20px 40px 20px;
+}
+
+.hero a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.arriba{
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+}
+
+    
+
+header{
+    background-color: rgb(242, 250, 90);
+}
+
+header img{
+    width: 230px;
+    height: 230px;
+}
+
+.scrolle ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.tituh2 h2{
+    text-align: center;
+    color: black;
+    background-color: rgb(242, 250, 90);
+    padding: 1%;
+}
+
+.tituh2 h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* -------------MAIN---------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    background-image: url("../img/bgconcesi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h2{
+    color: black;
+    font-size: 110px;
+}
+
+.tit h2{
+    text-align: center;
+}
+
+
+.tot{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 10px 5px;
+} 
+
+.tot img{
+    width: 1600px;
+    height: 300px;
+}
+
+
+
+.autos img{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.marquis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.marquis div{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
+
+.marquis div h3{
+    margin: 8px;
+}
+
+.marquis div a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+.sti img{
+    height: 60px;
+    width: 60px;
+}
+.sti{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+/* -------------FOOTER------------- */
+
+footer{
+    background-color: rgb(242, 250, 90);
+    display: flex;
+}
+
+.footerlogo img{
+    width: 100px;
+    height: 100px;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+}
+
+
+footer basquet{
+    background-color: gray;
+}
+
+
+
+footer futsal img{
+    width: 50px;
+    height: 50px;
+}
+
+footer gimnasio img{
+    width: 50px;
+    height: 50px;
+}
+
+footer natacion img{
+    width: 50px;
+    height: 50px;
+}
